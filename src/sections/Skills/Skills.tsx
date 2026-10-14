@@ -9,7 +9,7 @@ function Skills() {
       className="skills container"
       aria-labelledby="skills-title"
     >
-      <SectionHeading number="02" title="Compétences" id="skills-title" />
+      <SectionHeading title="Compétences" id="skills-title" />
 
       <div className="skills__grid">
         {skillCategories.map((category) => (
