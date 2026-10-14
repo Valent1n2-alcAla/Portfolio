@@ -1,0 +1,90 @@
+.project-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color 0.2s ease;
+}
+
+.project-card:hover,
+.project-card:focus-within {
+  border-color: var(--accent);
+}
+
+.project-card__category {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+}
+
+.project-card__title {
+  font-size: 1.5rem;
+}
+
+.project-card__title a {
+  text-decoration: none;
+}
+
+.project-card__title a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 4px;
+}
+
+.project-card__summary {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.project-card__tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: auto 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-card__tech li {
+  padding: 0.2rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+.project-card__github {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  align-self: flex-start;
+  transition: border-color 0.2s ease;
+}
+
+.project-card__github:hover {
+  border-bottom-color: var(--accent);
+}
+
+
+/* Toute la carte cliquable */
+.project-card__title a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius);
+}
+
+/* GitHub reste cliquable au-dessus */
+.project-card__github {
+  position: relative;
+  z-index: 1;
+}

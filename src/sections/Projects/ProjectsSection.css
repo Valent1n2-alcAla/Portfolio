@@ -1,0 +1,30 @@
+.projects-section {
+  padding-block: clamp(3rem, 8vw, 6rem);
+}
+
+.projects-section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.projects-section__more {
+  display: inline-block;
+  margin-top: 2rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 0.2rem;
+}
+
+.projects-section__more:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 900px) {
+  .projects-section__grid {
+    grid-template-columns: 1fr;
+  }
+}

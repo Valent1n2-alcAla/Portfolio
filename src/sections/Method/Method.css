@@ -1,0 +1,71 @@
+.method {
+  padding-block: clamp(3rem, 8vw, 6rem);
+}
+
+.method__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--border);
+  border-left: 1px solid var(--border);
+}
+
+.method__step {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.75rem;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.method__index {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent);
+}
+
+.method__step h3 {
+  font-size: 1.3rem;
+}
+
+.method__text {
+  color: var(--text-muted);
+}
+
+.method__proof {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--border);
+  font-size: 0.85rem;
+}
+
+.method__proof span {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+}
+
+.method__proof a {
+  color: var(--text);
+  text-decoration-color: var(--accent);
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 900px) {
+  .method__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .method__grid {
+    grid-template-columns: 1fr;
+  }
+}

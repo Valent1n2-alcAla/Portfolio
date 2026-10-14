@@ -1,0 +1,29 @@
+.projects {
+  padding-block: clamp(3rem, 8vw, 6rem);
+}
+
+.projects__header {
+  max-width: 56ch;
+  margin-bottom: 3rem;
+}
+
+.projects__header h1 {
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+}
+
+.projects__header p {
+  margin-top: 1rem;
+  color: var(--text-muted);
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 700px) {
+  .projects__grid {
+    grid-template-columns: 1fr;
+  }
+}
