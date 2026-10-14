@@ -8,7 +8,8 @@ function Project() {
 
   if (!project) {
     return (
-      <main className="project container">
+      <main id="contenu" tabIndex={-1} className="project container">
+        <title>Projet introuvable | Valentin Alcala</title>
         <h1>Projet introuvable</h1>
         <Link to="/projets" className="project__back">
           Retour aux projets
@@ -18,7 +19,8 @@ function Project() {
   }
 
   return (
-    <main className="project container">
+    <main id="contenu" tabIndex={-1} className="project container">
+      <title>{`${project.title} | Valentin Alcala`}</title>
       <Link to="/projets" className="project__back">
         Tous les projets
       </Link>
@@ -44,6 +46,7 @@ function Project() {
             <dd>
               <a href={project.githubUrl} target="_blank" rel="noreferrer">
                 GitHub
+                <span className="sr-only"> (nouvel onglet)</span>
               </a>
             </dd>
           </div>

@@ -4,7 +4,8 @@ import './Projects.css'
 
 function Projects() {
   return (
-    <main className="projects container">
+    <main id="contenu" tabIndex={-1} className="projects container">
+      <title>Projets | Valentin Alcala</title>
       <header className="projects__header">
         <h1>Projets</h1>
         <p>

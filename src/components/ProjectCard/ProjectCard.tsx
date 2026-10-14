@@ -31,6 +31,7 @@ function ProjectCard({ project }: ProjectCardProps) {
           className="project-card__github"
         >
           Code sur GitHub
+          <span className="sr-only"> (nouvel onglet)</span>
         </a>
       )}
     </article>

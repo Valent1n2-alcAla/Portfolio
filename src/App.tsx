@@ -5,11 +5,15 @@ import ScrollToHash from './components/ScrollToHash/ScrollToHash'
 import Home from './pages/Home/Home'
 import Projects from './pages/Projects/Projects'
 import Project from './pages/Project/Project'
+import NotFound from './pages/NotFound/NotFound'
 
 function App() {
   return (
     <>
       <span id="top" />
+      <a href="#contenu" className="skip-link">
+        Aller au contenu
+      </a>
       <ScrollToHash />
       <Navbar />
 
@@ -17,6 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projets" element={<Projects />} />
         <Route path="/projets/:slug" element={<Project />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
       <Footer />

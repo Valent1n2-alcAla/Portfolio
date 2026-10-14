@@ -53,6 +53,7 @@ function Contact() {
               <dd>
                 <a href={link.url} target="_blank" rel="noreferrer">
                   Voir le profil
+                  <span className="sr-only"> (nouvel onglet)</span>
                 </a>
               </dd>
             </div>

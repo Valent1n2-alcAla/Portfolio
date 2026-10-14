@@ -15,12 +15,14 @@ function Footer() {
           <li>
             <a href={contact.githubUrl} target="_blank" rel="noreferrer">
               GitHub
+              <span className="sr-only"> (nouvel onglet)</span>
             </a>
           </li>
           {contact.linkedinUrl && (
             <li>
               <a href={contact.linkedinUrl} target="_blank" rel="noreferrer">
                 LinkedIn
+                <span className="sr-only"> (nouvel onglet)</span>
               </a>
             </li>
           )}

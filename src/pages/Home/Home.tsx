@@ -11,7 +11,8 @@ function Home() {
   useReveal('main > section:not(.hero)')
 
   return (
-    <main>
+    <main id="contenu" tabIndex={-1}>
+      <title>Valentin Alcala, développeur web et mobile</title>
       <Hero />
       <About />
       <Skills />
