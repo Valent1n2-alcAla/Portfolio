@@ -10,5 +10,10 @@ export type Project = {
   role: string[]
   features?: string[]
   learned?: string[]
+  // Capture dans public/projets/, en deux largeurs : {name}-800.webp et {name}-1600.webp
+  image?: {
+    name: string
+    alt: string
+  }
   featured?: boolean
 }

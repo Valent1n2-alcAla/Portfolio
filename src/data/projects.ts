@@ -119,6 +119,10 @@ export const projects: Project[] = [
       'Consultation des paiements et des interventions',
     ],
     learned: ['Travailler en équipe sur un projet concret'],
+    image: {
+      name: 'e-music',
+      alt: "Page d'accueil administrateur d'E-Music : menu latéral et planning hebdomadaire des cours",
+    },
     featured: true
   },
 ]

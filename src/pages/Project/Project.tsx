@@ -31,6 +31,18 @@ function Project() {
         <p className="project__summary">{project.summary}</p>
       </header>
 
+      {project.image && (
+        <img
+          className="project__image"
+          src={`/projets/${project.image.name}-1600.webp`}
+          srcSet={`/projets/${project.image.name}-800.webp 800w, /projets/${project.image.name}-1600.webp 1600w`}
+          sizes="(max-width: 860px) 100vw, 820px"
+          width={1600}
+          height={798}
+          alt={project.image.alt}
+        />
+      )}
+
       <dl className="project__meta">
         <div>
           <dt>Équipe</dt>
