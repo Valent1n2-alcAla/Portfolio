@@ -7,7 +7,7 @@ export const projects: Project[] = [
     category: 'Professionnel',
     summary:
       'Outil de gestion des interventions, développé pendant mon stage chez DeltInfo.',
-    technologies: ['Vue', 'Vite'],
+    technologies: ['Vue', 'Vite', 'Supabase'],
     team: 'Équipe projet, stage DeltInfo, janvier à février 2026',
     context:
       "Projet de digitalisation et d'automatisation de la gestion des interventions, mené en mode projet.",
@@ -21,6 +21,12 @@ export const projects: Project[] = [
       'Gestion des colis à recevoir lors des interventions',
       'Signature des contrats',
       'Ajout des compétences des employés dans leur profil',
+    ],
+    learned: [
+      'Prise en main de Vue',
+      'Bases de données avec Supabase',
+      'Travail en équipe',
+      'Présenter un projet concret à des personnes non techniques',
     ],
     featured: true
   },
@@ -42,6 +48,10 @@ export const projects: Project[] = [
       'Montants payés et loyer',
       "Caractéristiques de l'appartement",
     ],
+    learned: [
+      'Utiliser une API REST depuis une application mobile',
+      "Relier un front-end Kotlin aux données d'une API",
+    ],
     featured: true
   },
   {
@@ -61,6 +71,10 @@ export const projects: Project[] = [
       'Utilisation de DTO pour séparer API et modèle JPA',
       'Gestion des entités Bâtiment et Appartement',
     ],
+    learned: [
+      'Créer une API REST en Java avec Spring Boot',
+      'Relier une base de données à une API',
+    ],
   },
   {
     slug: 'calanques',
@@ -79,6 +93,10 @@ export const projects: Project[] = [
       'Affichage des réservations dans le profil',
       'Consultation du détail et du statut des réservations',
       "Annulation d'une réservation",
+    ],
+    learned: [
+      'Relier une application mobile à une API',
+      "Lier les réservations au compte de l'utilisateur",
     ],
   },
   {
@@ -100,6 +118,7 @@ export const projects: Project[] = [
       'Inscription d’un élève à un cours',
       'Consultation des paiements et des interventions',
     ],
+    learned: ['Travailler en équipe sur un projet concret'],
     featured: true
   },
 ]

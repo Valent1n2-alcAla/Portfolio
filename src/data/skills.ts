@@ -31,7 +31,7 @@ export const skillCategories: SkillCategory[] = [
       { name: 'MySQL' },
       { name: 'MariaDB' },
       { name: 'OracleDB' },
-      { name: 'Supabase' },
+      { name: 'Supabase', context: 'Stage DeltInfo' },
     ],
   },
   {
