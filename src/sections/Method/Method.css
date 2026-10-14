@@ -21,12 +21,6 @@
   border-bottom: 1px solid var(--border);
 }
 
-.method__index {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  color: var(--accent);
-}
-
 .method__step h3 {
   font-size: 1.3rem;
 }
@@ -38,17 +32,8 @@
 .method__proof {
   margin-top: auto;
   padding-top: 1rem;
-  border-top: 1px dashed var(--border);
-  font-size: 0.85rem;
-}
-
-.method__proof span {
-  display: block;
-  margin-bottom: 0.25rem;
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem;
   color: var(--text-muted);
 }
 

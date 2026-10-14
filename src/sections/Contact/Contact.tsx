@@ -18,10 +18,6 @@ function Contact() {
 
       <div className="contact__grid">
         <div>
-          <p className="contact__status">
-            <span className="contact__dot" aria-hidden="true" />
-            Disponible
-          </p>
           <p className="contact__headline">
             Je recherche une alternance ou un CDI en développement web et
             mobile.

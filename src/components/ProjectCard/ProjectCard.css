@@ -16,11 +16,9 @@
 }
 
 .project-card__category {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-muted);
 }
 
 .project-card__title {
@@ -61,8 +59,7 @@
 }
 
 .project-card__github {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: var(--text);
   text-decoration: none;
   border-bottom: 1px solid var(--border);

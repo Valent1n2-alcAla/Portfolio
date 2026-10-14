@@ -8,7 +8,7 @@ export const projects: Project[] = [
     summary:
       'Outil de gestion des interventions, développé pendant mon stage chez DeltInfo.',
     technologies: ['Vue', 'Vite'],
-    team: 'Équipe projet — stage DeltInfo, janvier–février 2026',
+    team: 'Équipe projet, stage DeltInfo, janvier à février 2026',
     context:
       "Projet de digitalisation et d'automatisation de la gestion des interventions, mené en mode projet.",
     role: [

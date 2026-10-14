@@ -17,8 +17,7 @@
 
 .footer__brand span {
   margin-left: 0.5rem;
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: var(--text-muted);
 }
 
@@ -31,8 +30,7 @@
 }
 
 .footer__links a {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: var(--text-muted);
   text-decoration: none;
 }

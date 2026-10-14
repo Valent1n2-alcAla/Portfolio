@@ -11,8 +11,7 @@
 .projects-section__more {
   display: inline-block;
   margin-top: 2rem;
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--text);
   text-decoration: none;
   border-bottom: 1px solid var(--accent);

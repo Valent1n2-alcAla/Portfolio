@@ -4,8 +4,7 @@
 }
 
 .project__back {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: var(--text-muted);
   text-decoration: none;
 }
@@ -20,11 +19,9 @@
 
 .project__category {
   margin-bottom: 0.75rem;
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-muted);
 }
 
 .project__header h1 {
@@ -51,12 +48,10 @@
 }
 
 .project__meta dt {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  font-size: 0.85rem;
+  font-weight: 500;
   color: var(--text-muted);
-  padding-top: 0.2rem;
+  padding-top: 0.1rem;
 }
 
 .project__meta dd {
