@@ -56,7 +56,7 @@ function Contact() {
               <dt>{link.label}</dt>
               <dd>
                 <a href={link.url} target="_blank" rel="noreferrer">
-                  Voir le profil ↗
+                  Voir le profil
                 </a>
               </dd>
             </div>

@@ -25,7 +25,7 @@ function Footer() {
             </li>
           )}
           <li>
-            <a href="#top">Haut de page ↑</a>
+            <a href="#top">Haut de page</a>
           </li>
         </ul>
       </div>

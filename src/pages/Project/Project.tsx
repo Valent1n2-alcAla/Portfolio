@@ -11,7 +11,7 @@ function Project() {
       <main className="project container">
         <h1>Projet introuvable</h1>
         <Link to="/projets" className="project__back">
-          ← Retour aux projets
+          Retour aux projets
         </Link>
       </main>
     )
@@ -20,7 +20,7 @@ function Project() {
   return (
     <main className="project container">
       <Link to="/projets" className="project__back">
-        ← Tous les projets
+        Tous les projets
       </Link>
 
       <header className="project__header">
@@ -43,7 +43,7 @@ function Project() {
             <dt>Code</dt>
             <dd>
               <a href={project.githubUrl} target="_blank" rel="noreferrer">
-                GitHub ↗
+                GitHub
               </a>
             </dd>
           </div>
