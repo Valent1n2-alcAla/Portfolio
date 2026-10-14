@@ -30,7 +30,7 @@ function ProjectCard({ project }: ProjectCardProps) {
           rel="noreferrer"
           className="project-card__github"
         >
-          Code sur GitHub ↗
+          Code sur GitHub
         </a>
       )}
     </article>

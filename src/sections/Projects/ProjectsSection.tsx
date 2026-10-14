@@ -22,7 +22,7 @@ function ProjectsSection() {
       </div>
 
       <Link to="/projets" className="projects-section__more">
-        Voir tous les projets →
+        Voir tous les projets
       </Link>
     </section>
   )

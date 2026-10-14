@@ -35,7 +35,7 @@ function Experience() {
                   to={`/projets/${item.projectSlug}`}
                   className="experience__link"
                 >
-                  Voir le projet →
+                  Voir le projet
                 </Link>
               )}
             </div>
