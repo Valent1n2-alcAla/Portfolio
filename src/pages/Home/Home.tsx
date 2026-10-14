@@ -5,8 +5,11 @@ import ProjectsSection from '../../sections/Projects/ProjectsSection'
 import Experience from '../../sections/Experience/Experience'
 import Method from '../../sections/Method/Method'
 import Contact from '../../sections/Contact/Contact'
+import useReveal from '../../hooks/useReveal'
 
 function Home() {
+  useReveal('main > section:not(.hero)')
+
   return (
     <main>
       <Hero />
