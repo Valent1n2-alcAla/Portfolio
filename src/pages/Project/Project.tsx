@@ -38,7 +38,7 @@ function Project() {
           srcSet={`/projets/${project.image.name}-800.webp 800w, /projets/${project.image.name}-1600.webp 1600w`}
           sizes="(max-width: 860px) 100vw, 820px"
           width={1600}
-          height={798}
+          height={project.image.height}
           alt={project.image.alt}
         />
       )}

@@ -14,6 +14,8 @@ export type Project = {
   image?: {
     name: string
     alt: string
+    // Hauteur de la version 1600px, évite un saut de mise en page au chargement
+    height: number
   }
   featured?: boolean
 }

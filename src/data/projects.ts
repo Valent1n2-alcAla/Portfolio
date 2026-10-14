@@ -28,6 +28,11 @@ export const projects: Project[] = [
       'Travail en équipe',
       'Présenter un projet concret à des personnes non techniques',
     ],
+    image: {
+      name: 'intervizio',
+      alt: "Page de présentation d'InterVizio, avec un aperçu du tableau de bord",
+      height: 695,
+    },
     featured: true
   },
   {
@@ -122,6 +127,7 @@ export const projects: Project[] = [
     image: {
       name: 'e-music',
       alt: "Page d'accueil administrateur d'E-Music : menu latéral et planning hebdomadaire des cours",
+      height: 798,
     },
     featured: true
   },
