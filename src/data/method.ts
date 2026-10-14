@@ -8,7 +8,7 @@ export type MethodStep = {
 export const methodSteps: MethodStep[] = [
   {
     title: 'Comprendre le besoin',
-    text: "Je pars de l'utilisateur : qui utilise l'outil, et pour faire quoi.",
+    text: 'Avant de coder, je cherche à comprendre le besoin, puis comment le mettre en place.',
     proof: 'User stories rédigées et développées sur Calanques et E-Music',
     projectSlug: 'calanques',
   },
@@ -32,13 +32,14 @@ export const methodSteps: MethodStep[] = [
   },
   {
     title: 'Corriger et améliorer',
-    text: 'Je reviens sur ce qui ne fonctionne pas bien pour le rendre plus fiable.',
-    proof: 'Correction du bug de navigation de la sidebar sur E-Music',
-    projectSlug: '25darkwolf',
+    text:
+      "Quand quelque chose ne va pas, je cherche la cause. Sur InterVizio, une page mettait trop de temps à afficher ses données : j'ai réécrit les requêtes SQL pour ne demander que le nécessaire.",
+    proof: 'Optimisation des requêtes SQL sur InterVizio',
+    projectSlug: 'intervizio',
   },
   {
     title: 'Apprendre en continu',
-    text: 'Chaque projet me sert à progresser sur une nouvelle technologie.',
+    text: "Je ne connais pas tout. J'apprends pour savoir faire plus de choses et aider plus de monde.",
     proof: 'Ce portfolio, construit en React et TypeScript',
   },
 ]

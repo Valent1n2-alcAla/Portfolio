@@ -12,9 +12,9 @@ function Hero() {
       <p className="hero__role">Développeur web et mobile junior, à Caen.</p>
 
       <p className="hero__intro">
-        Je cherche une alternance ou un CDI. J'ai travaillé sur des
-        applications web en Vue et Symfony, des applications Android en Kotlin
-        et une API en Spring Boot.
+        J'aide les gens à développer leurs idées et à les mettre en place dans
+        l'entreprise. J'ai travaillé en Vue, Symfony, Kotlin et Spring Boot. Je
+        cherche une alternance ou un CDI.
       </p>
 
       <div className="hero__actions">

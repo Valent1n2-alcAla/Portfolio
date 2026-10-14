@@ -27,10 +27,11 @@ function About() {
                         Services Informatiques aux Organisations à Caen.
                     </p>
                     <p>
-                        J'ai ensuite fait mon stage chez DeltInfo, sur un outil de gestion des
-                        interventions. Je cherche maintenant une alternance ou un CDI pour
-                        continuer à aider des entreprises à développer leurs projets, avec des
-                        outils adaptés à leurs besoins.
+                        Pendant mon stage chez DeltInfo, j'ai travaillé sur InterVizio, un outil
+                        de gestion des interventions. C'est le projet dont je suis le plus fier,
+                        parce qu'il est aujourd'hui utilisé en entreprise. Je ne connais pas
+                        tout, mais je veux savoir faire beaucoup plus de choses, pour aider le
+                        plus de monde possible.
                     </p>
                 </div>
 
